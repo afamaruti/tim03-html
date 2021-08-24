@@ -1,1 +1,2 @@
-# tim03-html
+# Project Tim A03
+HTML &amp CSS
