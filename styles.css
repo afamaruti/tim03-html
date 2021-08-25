@@ -125,3 +125,25 @@ p {
     margin: 10px 0px 10px 0px;
     padding: 10px 0px 10px 0px;
 }
+
+/*editan untuk footer*/
+  .footer {
+    background-color: #50CB93;
+    color: #364f6b;
+    height: 120px;
+    padding: 40px;
+  }
+  
+  .footer-logo {
+    color: black;
+    float: left;
+    font-size: 32px;
+  }
+  
+  .footer-list {
+    float: right;
+  }
+  
+  .footer-list li {
+    padding-bottom: 20px;
+  }
