@@ -165,3 +165,41 @@ p {
 .medsos ul li i {
     color: #7E42C7;
 }
+
+.slider {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  margin: 30px ;
+}
+.slides {
+  display: flex;
+  margin:auto;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  font-family: 'centaur';
+}
+
+.slides .foto img{
+  width:500px;
+  border-radius: 30px;
+  padding-bottom:10px;
+  height:300px;
+}
+
+.slides .foto h3{
+font-family: 'Open Sans', sans-serif;
+color: #364f6b;
+}
+
+.slides .foto{
+  border-radius: 20px;
+  border-color:  #fff;
+}
+
+.foto{
+  border:1px solid black;
+  margin: 10px;
+}
