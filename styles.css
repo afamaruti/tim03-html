@@ -130,20 +130,28 @@ p {
   .footer {
     background-color: #50CB93;
     color: #364f6b;
-    height: 120px;
-    padding: 40px;
+    padding: 15px;
+    text-align:center;
+  } 
+  
+  .medsos{
+    padding:5px;
   }
   
-  .footer-logo {
-    color: black;
-    float: left;
-    font-size: 32px;
+  .medsos ul li{
+    display:inline-block;
+    color:#fff;
+    margin-right:30px;
   }
-  
-  .footer-list {
-    float: right;
+
+  .container{
+    padding:10px;
   }
-  
-  .footer-list li {
-    padding-bottom: 20px;
+  .container ul{
+    padding:10px;
+    color:black;
+  }
+
+  .medsos ul li i{
+    color: #7E42C7;
   }
