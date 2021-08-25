@@ -7,7 +7,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Open Sans' , sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header {
@@ -16,7 +16,7 @@ body {
     position: relative;
 }
 
-.logo a{
+.logo a {
     font-size: 50px;
     font-weight: bold;
     float: left;
@@ -26,7 +26,6 @@ body {
 
 .menu {
     float: right;
-    
 }
 
 nav {
@@ -38,6 +37,8 @@ nav {
     position: -webkit-sticky;
     top: 0;
     background: #FFFFFF;
+    z-index: 1;
+    border-bottom: 2px solid black;
 }
 
 nav ul {
@@ -126,32 +127,41 @@ p {
     padding: 10px 0px 10px 0px;
 }
 
+#wisata #gmbr {
+    width: 50%;
+    height: 40%;
+    border-radius: 50px;
+}
+
+
 /*editan untuk footer*/
-  .footer {
+
+.footer {
     background-color: #50CB93;
     color: #364f6b;
     padding: 15px;
-    text-align:center;
-  } 
-  
-  .medsos{
-    padding:5px;
-  }
-  
-  .medsos ul li{
-    display:inline-block;
-    color:#fff;
-    margin-right:30px;
-  }
+    text-align: center;
+}
 
-  .container{
-    padding:10px;
-  }
-  .container ul{
-    padding:10px;
-    color:black;
-  }
+.medsos {
+    padding: 5px;
+}
 
-  .medsos ul li i{
+.medsos ul li {
+    display: inline-block;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.container {
+    padding: 10px;
+}
+
+.container ul {
+    padding: 10px;
+    color: black;
+}
+
+.medsos ul li i {
     color: #7E42C7;
-  }
+}
