@@ -4,17 +4,23 @@
     padding: 0px;
 }
 
+a {
+    font-style: none;
+    color: #364f6b;
+}
+
 body {
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 .main h2{
-  text-align:center;
-  font-size:35px;
-  padding-top:30px;
-  color:navy;
+    text-align:center;
+    font-size:35px;
+    padding-top:30px;
+    color:navy;
 }
 
 .main h3 {
@@ -24,17 +30,17 @@ body {
 }
 
 .header {
-    width: 1100px;
-    margin: auto;
+    width: 100%;
     position: relative;
 }
 
-.logo a {
+.logo {
+    float: left;
     font-size: 50px;
     font-weight: bold;
-    float: left;
     font-family: 'centaur';
     color: #364f6b;
+    line-height: 100px;
 }
 
 .menu {
@@ -154,20 +160,13 @@ p {
     color: #364f6b;
     padding: 15px;
     text-align: center;
-}
-
-.medsos {
-    padding: 5px;
-}
-
-.medsos ul li {
-    display: inline-block;
-    color: #fff;
-    margin-right: 30px;
+    clear: both;
 }
 
 .container {
-    padding: 10px;
+    width: 95%;
+    margin: auto;
+    padding: 0px 50px;
 }
 
 .container ul {
@@ -175,31 +174,27 @@ p {
     color: black;
 }
 
-.medsos ul li i {
-    color: #7E42C7;
-}
-
 .slider {
-  width: 100%;
-  text-align: center;
-  overflow: hidden;
-  margin: 30px ;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin: 30px ;
 }
 .slides {
-  display: flex;
-  margin:auto;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
-  font-family: 'centaur';
+    display: flex;
+    margin:auto;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    font-family: 'centaur';
 }
 
 .slides .foto img{
-  width:500px;
-  border-radius: 30px;
-  padding-bottom:10px;
-  height:300px;
+    width:500px;
+    border-radius: 30px;
+    padding-bottom:10px;
+    height:300px;
 }
 
 .slides .foto h3{
@@ -208,11 +203,65 @@ color: #364f6b;
 }
 
 .slides .foto{
-  border-radius: 20px;
-  border-color:  #fff;
+    border-radius: 20px;
+    border-color:  #fff;
 }
 
 .foto{
-  border:1px solid black;
-  margin: 10px;
+    border:1px solid black;
+    margin: 10px;
+}
+
+.teams {
+    text-align: center;
+}
+
+.teams-wrapper {
+    width: 100%;
+    margin: auto;
+    padding: 30px 0px;
+    margin-bottom: 50px;
+    height: 400px;
+}
+.teams h2, h3, p {
+    color: #364f6b;
+}
+
+.team {
+    width: 20%;
+    padding: 30px 10px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.team:hover {
+    box-shadow: 10px 10px 10px #d0d2d496;
+    border: #364f6bc7 1px solid;
+    border-radius: 5px;
+
+}
+.team img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.team p {
+    margin-top: 10px;
+    padding: 0;
+    color: black;
+}
+
+.team .name {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.team .role {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.team i {
+    padding-right: 5px;
+    color: black;
 }
