@@ -302,6 +302,7 @@ p {
     #home img{
         width: 95%;
         height: 380px;
+        display: block;
     }
     #wisata{
         display: block;
@@ -329,3 +330,53 @@ p {
         width: 85%;
     }
 }
+/*untuk layar TABLET*/
+@media(min-width:768px) and (max-width:1024px){
+    .logo{
+        font-size: 40px;
+    }
+    .menu{
+        font-size: 20px;
+    }
+    #home{
+        display: block;
+    }
+    #home h2{
+        font-size: 40px;
+    }
+    #home img{
+        width: 95%;
+        height: 380px;
+        display: block;
+    }
+    #wisata{
+        display: block;
+    }
+    .header .deskripsi{
+        width: 100%;
+    }
+    #wisata h2{
+        font-size: 40px;
+    }
+    #wisata #gmbr{
+        width: 90%;
+    }
+    #wisata .deskripsi{
+        font-size: 20px;
+    }
+    #wisata p{
+        width: 90%;
+        text-align: justify;
+    }
+    .main .foto{
+        width: 100%;
+    }
+    .slides .foto img{
+        width: 670px;
+        height: 400px;
+    }
+    .teams-wrapper{
+        width: 85%;
+    }
+}
+
