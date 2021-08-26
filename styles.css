@@ -283,3 +283,20 @@ p {
   padding-right: 5px;
   color: black;
 }
+@media(min-width:480px) and (max-width:767px){
+    .logo{
+        font-size: 20px;
+        display: flex;
+    }
+    .menu{
+        font-size: 10px;
+        display: flex;
+    }
+    #home{
+        display: block;
+    }
+    #home #img{
+        width: 430px;
+        height: 380px;
+    }
+}
